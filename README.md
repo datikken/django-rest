@@ -14,8 +14,15 @@
 <p>docker-compose run web python manage.py makemigrations polls</p>
 <p>docker-compose run web python manage.py migrate</p>
 
+Or better:
+```
+docker exec -it django_web_1 [python manage.py shell]
+```
 To access database run:
 
 ```
 docker exec -it django_db_1 psql -U postgres
 ```
+
+[comment]: <> (TODO: add pip install django-storages boto3)
+[comment]: <> (django-webpack-loader)

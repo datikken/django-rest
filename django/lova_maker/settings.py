@@ -23,6 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-)@$n(+21uz0s3zk)q3_0wsj7+)g5h2t)7uejeuoz=l*2xt(!qe'
 
+MAILCHIMP_API_KEY = "8d9c8bbfaaf575ee517e0e6d67b398e3-us5"
+MAILCHIMP_DATA_CENTER = "us5"
+MAILCHIMP_EMAIL_LIST_ID = "6c3d0825fd"
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
